@@ -41,6 +41,10 @@ class TestFakerCompany < Test::Unit::TestCase
     assert @tester.profession.match(/[a-z ]+\.?/)
   end
 
+  def test_department
+    assert @tester.department.match(/[a-z ]+\.?/)
+  end
+
   private 
 
     def abn_checksum(abn)

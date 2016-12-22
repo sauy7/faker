@@ -32,6 +32,9 @@ sv:
         - "#{Name.last_name} #{suffix}"
         - "#{Name.last_name}-#{Name.last_name}"
         - "#{Name.last_name}, #{Name.last_name} #{suffix}"
+      department: ["Affärsutveckling", "Kundservice", "Teknik", "Finans",
+                   "Personal", "IT", "Ledning", "Marknadsföring", "Inkop",
+                   "Forskning & Utveckling", "Försäljning"]
 
     internet:
       domain_suffix: [se, nu, info, com, org]
